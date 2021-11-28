@@ -10,9 +10,6 @@ echo debian > /etc/hostname
 
 ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 
-# Root password
-echo -e "passw0rd\npassw0rd" | passwd
-
 
 ##### Generate locales #####
 
